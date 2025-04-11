@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# IDE & Editor folders
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Bench data/output
+examples/
+outputs/
+*.md.bak
+
+# Checkpoints / cache
+*.ckpt
+*.log
+*.pt
+*.pth
+*.onnx
+*.npz
+*.pkl
+*.tmp
+*.tensorboard
+*.tfevents.*
